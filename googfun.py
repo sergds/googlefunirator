@@ -66,7 +66,7 @@ layout = [[sg.Text(title, size=(25, 1), justification='center')],
             [sg.Text(netspeednote, size=(30, 1), justification='center')],
             [sg.InputText(default_text=ttt, size=(30, 1))],
             [sg.Text(result, justification='center')],
-            [sg.InputText(font=('Comic Sans MS', 10), key='-OUTPUT-', size=(30, 1))],
+            [sg.InputText(key='-OUTPUT-', size=(30, 1))],
             [sg.T(' ' * 15 ), sg.Button('Translate', focus=True), sg.Quit()]]
 
 window = sg.Window(wintitle, layout)
